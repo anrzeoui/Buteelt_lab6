@@ -60,6 +60,11 @@
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.7.1</version>
             </plugin>
+            <plugin>
+    <groupId>org.jacoco</groupId>
+    <artifactId>jacoco-maven-plugin</artifactId>
+    <version>0.8.12</version> <!-- Java 21+ дэмждэг -->
+</plugin>
         </plugins>
     </build>
     <reporting>
